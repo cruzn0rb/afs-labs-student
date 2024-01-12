@@ -26,6 +26,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: registry.dev.afsmtddso.com/dnorberto-harbor-project/lab-env-repo:1.0
+        image: registry.dev.afsmtddso.com/dnorberto-harbor-project/db:971c881-3b04201
         ports:
         - containerPort: 5432
